@@ -1,10 +1,13 @@
+import Blog from '@/pages/Blog'
 import React from 'react'
 
 type Props = {}
 
 const page = (props: Props) => {
     return (
-        <div>Blog</div>
+        <div>
+            <Blog />
+        </div>
     )
 }
 
